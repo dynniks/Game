@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Credits">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Об игре:"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Создатель:"dynniks"'
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='За дизайн отвечали: "dynniks"'
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Идея: "dynniks"'
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Игра была вдохновлена таким проектом, как Lapse: Забытое будущее"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Версия: 1.0.1 Pre-Alfa"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Описание"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endgame 1980: Uncertain future — это приложение, являющее собой текстовую стратегию с элементами удачи. Оно включает в себя как множество событий, появляющихся перед игроком, так и продуманный мир, в котором ваш персонаж и оказывается.  Вы оказываетесь на месте главы одного неназванного государства в период альтернативной холодной войны между двумя сверхдержавами. Ваша страна находится в альянсе с одной из них, что выливается в политическое и экономическое давление с ее стороны. В добавок, по стечению обстоятельств, ваша страна находится на границе с недружелюбно настроенным альянсом другой сверхдержавы и последствия такого соседства вам предстоит ощутить сполна. Вдобавок, внутри страны происходят волнения и различного рода кризисы, и чтобы сохранить свою власть в стране и привести ее к процветанию, вам придется выложиться на все 100.  В игре есть 5 основных параметров, за которыми обязательно следить, а именно: "
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  - Политическая власть (она же способность вашего правительства принимать указы и решения). В случае её чрезмерной траты на все указы, последствия могут оказаться плачевными."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  - Резервный банк. Это ваш билет в безоблачное будущее (пока в нем есть сбережения). Однако не стоит его переполнять, иначе банки могут почувствовать себя более властными и есть ненулевая вероятность того, что они попытаются вас свергнуть или подчинить."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  - Популярность. Власть любого главы государства зависит от его имиджа среди простого народа. Пока они поддерживают вас, все будет в порядке. Однако не стоит пытаться идти против воли народа, так как история может привести много примеров правителей, шедших наперекор им. Однако не стоит и зарабатываться, стараясь угодить народу во всем, ведь глава страны всего- лишь человек."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  - Армия. У каждой страны есть своя армия, являющаяся гарантом стабильности и безопасности. Без финансирования вас и ваше государство легко могут подчинить ваши соперники на мировой арене. Но не стоит и давать им слишком много власти, так как в их кругах могут зреть идеи о военном перевороте."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  - Экономика. Способность государства зарабатывать деньги. Тут аналогично другим параметрам – не стоит слишком сильно ухудшать экономическую ситуацию страны, но и слишком сильным этот сектор делать тоже не надо, иначе можно ждать неприятных последствий."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В ходе игрового процесса на экране будут высвечиваться случайные события и будут даваться варианты ответа, каждый может повлиять на все параметры по-разному. По описанию этих событий можно примерно представить, что и как сильно будет меняться, так что вполне возможно продержаться на месте главы государства дольше месяца. Endgame 1980: Uncertain future — это полноценный текстовый квест с элементами удачи, в котором игроку будет интересно на протяжении всего игрового процесса. "
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
